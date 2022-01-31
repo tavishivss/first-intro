@@ -1,17 +1,31 @@
-h1{
-    background-color: rgb(182, 180, 180);
-    color: white;
-    text-align: center;
+body{
+    background-color: rgb(216, 213, 213);
+    margin:20px;
+    font-size: 110%;
 }
-header{
-    background-color: rgb(116, 113, 113);
-    text-align: center;    
+header,footer{
+    font-size: 20px;
+    text-align: center;
+    background-image: linear-gradient(to bottom right, rgb(70, 205, 223), rgb(83, 80, 80));
+
+    padding-bottom: 0.5px;    
+}
+h1{
+    color: white;
 }
 a{
-    font-size: 20px;
+    font-size: 25px !important;
 }
-h2,h3{
-    background-color: rgb(78, 228, 248);
+h3,h2{
+    background-color:rgb(80, 157, 230);
+    color:rgb(49, 45, 45);
+}
+section{
+    
+    width: 30%;
+    float: left;
+    margin-right: 20px;
+    padding-top: 10px;
 }
 details{
     font-style: italic;
@@ -19,6 +33,15 @@ details{
 summary{
     font-style: normal;
 }
-div{
-    background-color:rgb(61, 59, 59);
+footer{
+    
+    clear: both;
+}
+img{
+    width: 10%;
+}
+nav a{
+    display: inline-block;
+	background-color: #ffffff;
+	width:22%;
 }
