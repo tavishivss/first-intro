@@ -1,0 +1,24 @@
+h1{
+    background-color: rgb(182, 180, 180);
+    color: white;
+    text-align: center;
+}
+header{
+    background-color: rgb(116, 113, 113);
+    text-align: center;    
+}
+a{
+    font-size: 20px;
+}
+h2,h3{
+    background-color: rgb(78, 228, 248);
+}
+details{
+    font-style: italic;
+}
+summary{
+    font-style: normal;
+}
+div{
+    background-color:rgb(61, 59, 59);
+}
